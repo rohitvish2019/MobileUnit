@@ -1,0 +1,17 @@
+{
+  "name": "mobileunit",
+  "version": "1.0.1",
+  "description": "Mobile UI for School Management System",
+  "main": "mobile.js",
+  "scripts": {
+    "test": "node mobile.js"
+  },
+  "keywords": [
+    "School",
+    "management",
+    "ERP",
+    "Software"
+  ],
+  "author": "Rohit Vishwakarma",
+  "license": "ISC"
+}
