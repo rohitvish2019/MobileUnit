@@ -1,0 +1,126 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #e7f7f8c2;
+}
+header{
+    height: 7.5%;
+    min-height: 60px;
+    max-height: 85px;
+    display: flex;
+}
+
+
+
+.profile{
+    flex: 1.5;
+}
+
+.logo{
+    flex: 1.5;
+}
+.search-bar{
+    flex: 7;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+}
+#searchStudentInputBox{
+    flex: 1;
+    font-size: large;
+    border-radius: 1.5rem;
+    padding-left: 5%;
+}
+
+.schoolid{
+    height: 6.5%;
+    min-height: 55px;
+    max-height: 75px;
+    margin-top: 4%;
+}
+.quickOptions{
+    height: 74%;
+}
+
+.school-name{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(153, 62, 9);
+}
+
+.school-mono{
+    text-align: center;
+    color: rgb(9, 60, 70);
+    font-size: small
+}
+
+
+.head1{
+    font-size: xx-large;
+    color: rgb(31, 161, 90);
+    font-weight: bold;
+}
+
+.bigHeading{
+    height: 7%;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.quickOptionItemsContainer{
+    width: 100%;
+    height: 85%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin-left: 5%;
+}
+
+.quickOptionItem{
+    width: 65%;
+    height: 10%;
+    background-color: white;
+    font-size: x-large;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    border-radius: 0.5em;
+    background-color: #b5d7dac2;
+    background-color: snow;
+    font-weight: bold;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    color: rgb(31, 138, 129);
+    box-shadow: 0 0 10px 4px grey;
+    margin-top: 5%;
+}
+
+
+footer{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    margin: 0;
+    border-top: 1px solid brown;
+    
+}
+
+.footericons{
+    border-collapse:collapse;
+    width: 20%;
+    padding-top: 2%;
+    font-size: small;
+    text-align: center;
+}
+
+.footericons:nth-child(2n){
+    border-left: 1px solid brown;
+    border-right: 1px solid brown;
+}
+
