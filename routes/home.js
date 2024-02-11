@@ -1,6 +1,17 @@
 const express = require('express');
 const router = express.Router();
 const homeController = require('../controllers/home');
-router.get('/', homeController.homepage);
-
+router.get('/home', homeController.homepage);
+router.get('/registration', homeController.registration);
+router.get('/teachers', homeController.teachers);
+router.get('/add_user', homeController.addUser);
+router.get('/addmissions/approval', homeController.admissionApproval);
+router.get('/class/annualupgrade', homeController.classUpgrade);
+router.get('/annualFees', homeController.annualFees);
+router.get('/attendance', homeController.attendance);
+router.get('/discharge', homeController.discharge);
+router.get('/fees', homeController.fees);
+router.get('/notice', homeController.notice);
+router.get('/result', homeController.result);
+router.get('/getAll/students', homeController.studentList);
 module.exports = router;

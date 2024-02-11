@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/css/registration.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="formData">
+        <label for="" style="font-size: large;">Registration Form :-</label>
+        <div class="inputItems">
+            <select required id="classList" name="Class">
+                <option value="">--Select Class--</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>kg-1</option>
+                <option>kg-2</option>
+            </select>
+            <input required type="text" name="RegistrationNo" readonly placeholder="Registration No">
+        </div>
+        <div class="inputItems">
+            <select name="" id="">
+                <option value="" selected disabled>-Select Medium-</option>
+                <option value="">English</option>
+                <option value="">Hindi</option>
+            </select>
+            <select required name="Session">
+                <option>past_year%></option>
+                <option selected >current_year%></option>
+                <option>next_year%></option>
+            </select>
+        </div>
+        <div class="inputItems">
+            <input required name="FirstName" type="text" placeholder="First Name">
+            <input required name="LastName" type="text" placeholder="Last Name">
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Father's Name">
+            <input type="text" name="" id="" placeholder="Mother's Name">
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Aadhar">
+            <input type="text" name="" id="" placeholder="Samagra">
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Mobile No">
+            <input type="text" name="" id="" placeholder="DOB">
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Caste">
+            <select required name="SiblingsCount">
+                <option value="" selected disabled>-Siblings-</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5Plus">More than 5</option>
+            </select>
+        </div>
+        <div class="inputItems">
+            <select required name="Category">
+                <option value="">-Category-</option>
+                <option>SC</option>
+                <option>ST</option>
+                <option>OBC</option>
+                <option>Gen</option>
+                <option>Gen/ Creame layer</option>
+            </select>
+            <select required name="Religion">
+                <option value="" selected disabled>--Religion--</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Islam">Islam</option>
+                <option value="Christian">Christian</option>
+                <option value="Sikh">Sikh</option>
+                <option value="Buddist">Buddist</option>
+                <option value="Jain">Jain</option>
+                <option value="Persian">Persian</option>
+                <option value="Hindu">SC</option>
+            </select>
+        </div>
+        <div class="inputItems2">
+            <textarea required cols="24" rows="3" name="FullAddress" placeholder="Full Address"></textarea>
+            <div class="radioButton">
+                <input type="radio" name="Gender" value="male"> Male
+                <input type="radio" name="Gender" value="female"> Female
+            </div>
+        </div>
+        
+        <div></div>
+        <div></div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Father's Education">
+            <input type="text" name="" id="" placeholder="Mother's Education">
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Father's Work place">
+            <input type="text" name="" id="" placeholder="Mother's Work place">
+        </div>
+        <div class="inputItems">
+            <select required name="FathersOccupation">
+                <option value="" selected disabled>-Father's Occupation-</option>
+                <option value="MPBSK">म.प्र.भवन एवं संनिर्माण कर्मकार</option>
+                <option value="Farmer">किसान</option>
+                <option value="MHT">मंडी हम्माल तुलावटी</option>
+                <option value="Retired">मृत/ अपंग/ सेवानिवृत्त शासकीय कर्मचारी</option>
+                <option value="GovtJob">सरकारी सेवा</option>
+                <option value="PvtJob">निजी सेवा</option>
+                <option value="Business">व्यापार</option>
+                <option value="Labour">मजदूरी</option>
+                <option value="Housewife">गृहणी</option>
+                <option value="Unheiginic">अस्वच्छ धंधा</option>
+                <option value="Other">अन्य</option>
+            </select>
+            <select required name="MothersOccupation">
+                <option value="" selected disabled>-Mother's Occupation-</option>
+                <option value="MPBSK">म.प्र.भवन एवं संनिर्माण कर्मकार</option>
+                <option value="Farmer">किसान</option>
+                <option value="MHT">मंडी हम्माल तुलावटी</option>
+                <option value="Retired">मृत/ अपंग/ सेवानिवृत्त शासकीय कर्मचारी</option>
+                <option value="GovtJob">सरकारी सेवा</option>
+                <option value="PvtJob">निजी सेवा</option>
+                <option value="Business">व्यापार</option>
+                <option value="Labour">मजदूरी</option>
+                <option value="Housewife">गृहणी</option>
+                <option value="Unheiginic">अस्वच्छ धंधा</option>
+                <option value="Other">अन्य</option>
+            </select>
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Father's Annual Income">
+            <input type="text" name="" id="" placeholder="Mother's Annual Income">
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="School Name">
+            <select required name="LastPassingClass">
+                <option value="" selected disabled>-Last passing Class-</option>
+                <option>Initial Admission</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>kg-1</option>
+                <option>kg-2</option>
+            </select>
+        </div>
+        <div class="inputItems">
+            <input type="text" name="" id="" placeholder="Passing Year">
+            <input type="text" name="" id="" placeholder="Grade">
+        </div>
+
+        <div class="inputItems">
+            <input name="BankName" type="text" placeholder="Bank Name">
+            <input name="Branch" type="text" placeholder="Branch">
+        </div>
+        <div class="inputItems">
+            <input name="AccountNo" type="text" placeholder="Account No">
+            <input name="IFSC" type="text" placeholder="IFSC">
+        </div>
+        <div class="inputButtons">
+            <button>Preview</button>
+        </div>
+    </div>
+    <%- include('_footer'); %>
+</body>
+</html>

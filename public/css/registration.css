@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+}
+.formData{
+    padding-top: 3%;
+    width: 98%;
+    margin-left: 1%;
+    height: 75%;
+    overflow-y: auto;
+}
+
+.inputItems{
+    width: 100%;
+}
+
+.inputItems input{
+    width: 44.3%;
+    margin-top: 2.5%;
+    font-size: larger;
+    margin-left: 2%;
+}
+
+.inputItems select{
+    width: 46%;
+    margin-top: 2.5%;
+    font-size: larger;
+    margin-left:2%;
+}
+
+.inputItems2{
+    display: flex;
+    margin-top: 2.5%;
+    font-size: larger;
+    margin-left: 2%;
+}
+
+.radioButton input{
+    display: inline-block;
+    margin: 0;
+}
+
+.inputButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+
+.inputButtons button{
+    background-color: #0e7c6cab;
+    color: #e7f7f8c2;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2%;
+    width: 25%;
+}

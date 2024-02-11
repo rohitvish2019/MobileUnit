@@ -22,3 +22,31 @@ footer{
     border-left: 1px solid brown;
     border-right: 1px solid brown;
 }
+
+
+.quickOptions{
+    height: 74%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid  black;
+    overflow-y: auto;
+    align-items: flex-start;
+    
+}
+.cardItem{
+    width: 40%;
+    height: 30%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: x-large;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 10px 4px rgb(117, 156, 137);
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
