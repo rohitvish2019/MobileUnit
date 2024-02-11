@@ -30,7 +30,7 @@
 #searchStudentInputBox{
     flex: 1;
     font-size: large;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     padding-left: 5%;
 }
 

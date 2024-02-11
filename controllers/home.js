@@ -1,3 +1,3 @@
 module.exports.homepage = function(req, res){
-    return res.render('notice');
+    return res.render('attendance');
 }

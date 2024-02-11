@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="/css/attendance.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="heading1">
+        Attendance
+    </div>
+    <div class="inputsContainer">
+        <select name="" id="">
+            <option value="">--Select Class--</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+        </select>
+        <input type="date" placeholder="Select Date">
+        <button>Get Details</button>
+    </div>
+    <div class="status">
+        <label for="">Status : </label>
+        <label for="">Not Updated</label>
+    </div>
+    <div class="attendanceContainer">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Father's Name</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rohit Vishwakarma</td>
+                    <td>Shalak Ram</td>
+                    <td><button>NA</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="submitButtons">
+        <button>Submit changes</button>
+    </div>
+    <%- include('_footer'); %>
+</body>
+</html>
