@@ -1,0 +1,80 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+}
+
+.addUserForm{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    border-bottom: 2px dotted green;
+}
+
+.addUserForm label{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.inputsets input{
+    width: 40%;
+    margin-left: 5%;
+    font-size: larger;
+    border: 1px solid black;
+    padding-left: 2%;
+}
+
+.inputsets select{
+    width: 42%;
+    margin-left: 5%;
+    border: 1px solid black;
+    padding-left: 2%;
+}
+
+.inputsets{
+    margin-top: 3%;
+}
+
+.inputsets button{
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 5%;
+    border: none;
+    border-radius: .5rem;
+
+}
+
+.cancelButton{
+    background-color: red;
+    color: white;
+}
+.submitButton{
+    background-color: green;
+    color: #e7f7f8c2;
+}
+
+.currentUsersContainer{
+    height: 48%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.currentUsersContainer label{
+    text-align:  center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+table{
+    width: 96%;
+    margin-left: 2%;
+    text-align: left;
+    border-collapse: collapse;
+}

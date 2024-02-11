@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+}
+.inputsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+thead{
+    background-color: rgb(18, 153, 153);
+    color: #f0f0f0;
+}
+
+td,th{
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+}
+
+table{
+    font-size: small;
+    border-collapse: collapse;
+    margin: 1%;
+    width: 98%;
+}
+td button{
+    font-size: smaller;
+}
+
+td{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+button{
+    background-color: #0e7c6cab;
+    color: #e7f7f8c2;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+}

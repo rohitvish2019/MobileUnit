@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuual Fees</title>
+    <link rel="stylesheet" href="/css/annual_fees.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div>
+        <table border="1px solid black">
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Annual Fees</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%for(let i=0;i<10;i++){%>
+                    <tr>
+                        <td>1</td>
+                        <td>2450</td>
+                    </tr>
+                <%}%>
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="addFeeContainer">
+        <div>
+            <label for="">Add Update Fees</label>
+        </div>
+        <div class="addFeeInputs">
+            <select class="inputItems" name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+            </select>
+            <input class="inputItems" type="number" placeholder="Amount">
+            <button class="inputItems">Submit</button>
+        </div>
+    </div>
+    <%- include('_footer'); %>
+</body>
+<script src="/js/annual_fees.js"></script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/studentListByClass.css">
+    <title>Search Student</title>
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="ActionName">
+        <label for="">Action Name</label>
+    </div>
+    <div class="inputsContainer">
+        <div>
+            <label for=""><b>Select Class</b></label>
+            <select name="" id="">
+                <%for(let i=1;i<10;i++){%>
+                    <option value="">Class <%=i%></option>
+                <%}%>
+            </select>
+        </div>
+        <button>Refresh</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Admission No</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Father's Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%for(let i=0;i<2;i++){%>
+                <tr>
+                    <td>12345</td>
+                    <td>Rohit Vishwakarma</td>
+                    <td>Class:5</td>
+                    <td>Shalakram Vishwakarma</td>
+                </tr>
+            <%}%>
+        </tbody>
+    </table>
+
+    <div>
+
+    </div>
+
+    <%- include('_footer'); %>
+</body>
+</html>

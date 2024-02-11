@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice</title>
+    <link rel="stylesheet" href="/css/notice.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="heading1">
+        <label for="">New notice for school</label>
+    </div>
+    <div class="noticeForm">
+        <div class="inputItems">
+            <label for="heading">Heading</label>
+            <textarea name="" id="" cols="30" rows="1"></textarea>
+        </div>
+
+        <div class="inputItems">
+            <label style="vertical-align: middle;" for="message">Message</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="submitButton">
+        <button>Add</button>
+    </div>
+    <%- include('_footer'); %>
+</body>
+<script src="/js/notice.js"></script>
+</html>

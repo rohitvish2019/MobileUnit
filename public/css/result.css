@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+}
+
+small{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.studentInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 96%;
+    border-bottom: 2px dotted black;
+    height: 23%;
+}
+
+.datarow{
+    width: 100%;
+    height: 33%;
+    font-size: x-large;
+    display: flex;
+}
+
+.studentInfoItems{
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: larger;
+}
+
+td,th{
+    text-align: left;
+}
+
+th{
+    font-size: large;
+}
+
+td input{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    width: 30%;
+}
+.ResultData{
+    height: 50%;
+    margin-left: 2%;
+    width: 96%;
+
+}
+.storedResult{
+    height: 80%;
+    margin-top: 3%;
+}
+
+.inputsContainer{
+    height: 6%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bold;
+}
+
+.buttonsContainer{
+    height: 10%;
+    display: flex;
+    border-top: 1px dotted black;
+    justify-content: space-around;
+}
+
+.actionsButtons{
+    background-color: #0e7c6cab;
+    color: #e7f7f8c2;
+    font-weight: bold;
+    border: none;
+    height: 80%;
+    margin-top: 1%;
+    border-radius: 1rem;
+    width: 35%;
+    font-size: large;
+}

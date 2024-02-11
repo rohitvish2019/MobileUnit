@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+}
+
+.heading1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.noticeForm{
+    height: 30%;
+    font-size: larger;
+}
+
+.inputItems{
+    vertical-align: middle;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.inputItems textarea{
+    font-size: larger;
+    margin-top: 5%;
+    border: 1px solid black;
+}
+label{
+    font-weight: bold;
+    font-size: large;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.submitButton button{
+    width: 30%;
+    background-color: #0e7c6cab;
+    color: #e7f7f8c2;
+    border: none;
+    border-radius: .5rem;
+}

@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    margin: 0;
+    border-top: 1px solid brown;
+    box-shadow: 0 0 10px 4px grey;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.footericons{
+    border-collapse:collapse;
+    width: 20%;
+    padding: 4%;
+    font-size: small;
+    text-align: center;
+}
+
+.footericons:nth-child(2n){
+    border-left: 1px solid brown;
+    border-right: 1px solid brown;
+}

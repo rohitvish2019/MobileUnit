@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    font-size: larger;
+}
+td,th{
+    padding-top: 2%;
+}
+
+.addFeeContainer{
+    margin-top: 15%;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 10px 4px rgb(117, 156, 137);
+}
+
+.addFeeInputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.inputItems{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%;
+    border: 1px solid black;
+}
+
+.addFeeInputs input{
+    width: 58%;
+    font-size: large;
+}
+
+.addFeeInputs select, option{
+    font-size: large;
+}
+
+.addFeeInputs button{
+    background-color: #0e7c6cab;
+    color: #e7f7f8c2;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Upgrade</title>
+    <link rel="stylesheet" href="/css/discharge.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="inputsContainer">
+        <div>
+            <label for=""><b>Select Class</b></label>
+            <select name="" id="">
+                <%for(let i=1;i<10;i++){%>
+                    <option value="">Class <%=i%></option>
+                <%}%>
+            </select>
+        </div>
+        <button>Refresh</button>
+    </div>
+    <table border="1px solid black">
+        <thead>
+            <tr>
+                <th>Adm. No</th>
+                <th>Name</th>
+                <th>Father's Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%for(let i=0;i<2;i++){%>
+                <tr>
+                    <td>12345</td>
+                    <td>Rohit Vishwakarma</td>
+                    <td>Shalakram Vishwakarma</td>
+                    <td><button>Discharge</button></td>
+                </tr>
+            <%}%>
+        </tbody>
+    </table>
+    <%- include('_footer'); %>
+</body>
+<script src="/js/discharge.js"></script>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="/css/add_user.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="addUserForm">
+        
+        <label class="heading1">Add New User</label>
+        
+        <div class="inputsets">
+            <input type="text" name="" id=""  placeholder="Full Name">
+            <input type="text" name="" id="" placeholder="Mobile">
+        </div>
+
+        <div class="inputsets">
+            <input type="text" name="" id="" placeholder="Address">
+            <select name="" id="">
+                <option value="" selected disabled>--Select--</option>
+                <option value="">Student</option>
+                <option value="">Teacher</option>
+                <option value="">Admin</option>
+                
+            </select>
+        </div>
+
+        <div class="inputsets">
+            <input type="password" name="" id="" placeholder="Passwod">
+            <input type="password" name="" id="" placeholder="Confirm Password">
+        </div>
+        
+        <div class="inputsets">
+            <button class="submitButton">Add</button>
+            <button class="cancelButton">Cancel</button>
+        </div>
+    </div>
+    <div class="currentUsersContainer">
+        <label class="heading1">Active Users</label>
+        <div class="usersList">
+            <table border="1px solid black">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Role</th>
+                        <th>Delete</th>
+                        <th>View</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rohit Vishwakarma</td>
+                        <td>8819968904</td>
+                        <td>Admin</td>
+                        <td><a href="/">Delete</a></td>
+                        <td><a href="/">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <%- include('_footer'); %>
+</body>
+</html>

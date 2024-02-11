@@ -1,0 +1,56 @@
+#header{
+    height:7.5%;
+    display: flex;
+    min-height: 60px;
+    max-height: 85px;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 10px 4px grey;
+    padding-bottom: 2%;
+
+}
+
+.profile{
+    flex: 1.5;
+    padding: 2%;
+}
+
+.logo{
+    flex: 1.5;
+    padding: 2%;
+}
+.search-bar{
+    flex: 7;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+}
+#searchStudentInputBox{
+    flex: 1;
+    font-size: large;
+    border-radius: 1.5rem;
+    padding-left: 5%;
+}
+
+.schoolid{
+    height: 6.5%;
+    min-height: 55px;
+    max-height: 75px;
+    margin-top: 4%;
+}
+
+.school-name{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(153, 62, 9);
+}
+
+.school-mono{
+    text-align: center;
+    color: rgb(9, 60, 70);
+    font-size: small
+}
+

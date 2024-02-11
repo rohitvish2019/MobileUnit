@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="/css/result.css">
+</head>
+<body>
+    <%- include('_header'); %>
+    <div class="studentInfo">
+        <div class="datarow">
+            <div class="studentInfoItems">
+                <small>Admission No</small>
+                <label>12345</label>
+            </div>
+            <div class="studentInfoItems">
+                <small>Name</small>
+                <label>Rohit Vishwakarma</label>
+            </div>
+        </div>
+
+        <div class="datarow"> 
+            <div class="studentInfoItems">
+                <small>Father's Name</small>
+                <label>Shalak Ram</label>
+            </div>
+            <div class="studentInfoItems">
+                <small>Mother's Name</small>
+            <label>Babli</label>
+            </div>
+        </div>
+        <div class="datarow">
+            <div class="studentInfoItems">
+                <small>Current Class</small>
+                <label>5</label>
+            </div>
+            <div class="studentInfoItems">
+                <small>Gender</small>
+            <label>Male</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="ResultData">
+        <div class="inputsContainer">
+            <label for="">Select term</label>
+            <select name="term" id="">
+                <option value="">Quarterly</option>
+                <option value="">Half-Yearly</option>
+                <option value="">Final</option>
+            </select>
+        </div>
+        <div class="storedResult">
+            <table border="1px solid black">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Obtained Marks</th>
+                        <th>Total Marks</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hindi</td>
+                        <td><input type="text" name="" id="" value="1"></td>
+                        <td>100</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>87</td>
+                        <td>100</td>
+                        <td>A</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="buttonsContainer">
+            <button class="actionsButtons">Update</button>
+            <button class="actionsButtons">Get Marksheet</button>
+        </div>
+        
+    </div>
+    
+    <%- include('_footer'); %>
+    
+</body>
+</html>

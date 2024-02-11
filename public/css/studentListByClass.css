@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #e7f7f8c2;
+    width: 100%;
+}
+
+table{
+    font-size: small;
+    border-collapse: collapse;
+    margin: 2%;
+    width: 96%;
+}
+
+td{
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid black;
+    text-align: left;
+}
+
+.ActionName{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.inputsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+thead{
+    background-color: rgb(18, 153, 153);
+    color: #f0f0f0;
+}
+
+td,th{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
