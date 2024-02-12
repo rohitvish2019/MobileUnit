@@ -38,7 +38,7 @@
                 count:5,
                 images:['annualFees.png','approval.png','termination.png','upgrade.png','addUser.png'],
                 links:['/annualFees','/addmissions/approval','/discharge','/class/annualupgrade','/add_user'],
-                keys:['Annual Fees','Approval', 'Discharge', 'Upgrade Class', 'Add User']
+                keys:['Annual Fees','Addmission Approval', 'Discharge', 'Upgrade Class', 'Add User']
             }
         }
         if(true){

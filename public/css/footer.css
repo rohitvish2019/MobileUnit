@@ -26,21 +26,22 @@ footer{
 
 .quickOptions{
     height: 74%;
-    width: 100%;
+    width: 94%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 1px solid  black;
     overflow-y: auto;
     align-items: flex-start;
+    margin-left: 3%;
     
 }
 .cardItem{
+    padding: 4%;
     width: 40%;
     height: 30%;
     margin-top: 5%;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     -webkit-box-shadow: 0 0 5px 2px grey;
     -moz-box-shadow: 0 0 5px 2px grey;
     box-shadow: 0 0 10px 4px rgb(117, 156, 137);
